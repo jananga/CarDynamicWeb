@@ -1,0 +1,65 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    /* border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; */
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: #ffffff;
+    color: black;
+    padding: 13px 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(241, 240, 240);
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: rgb(241, 240, 240);
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 10px 40px 40px 40px ;
+    border-left: 1px solid black;
+    width: 70%;
+    border-left: none;
+    height: auto;
+}
+
+/* custom start */
+
+.secondary-content{
+        
+    background-color: #FFFFFF;
+    border:1px solid #FFFFFF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.left-panel-content{
+    padding: 5px;
+}
+
+/* Custom End */
